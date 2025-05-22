@@ -15,7 +15,7 @@
 }
 
 .side-menu.active {
-  right: 0;
+right: -100%;
 }
 
 .overlay {
