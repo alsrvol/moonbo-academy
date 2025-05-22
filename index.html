@@ -9,13 +9,46 @@
 <body>
   <header>
     <div class="logo-area">
-<img src="moonbo-logo-transparent.png" alt="문보로고" class="logo-img">
+      <img src="moonbo-logo-transparent.png" alt="문보로고" class="logo-img">
       <div class="logo-text">MOONBO<br><span>ACADEMY</span></div>
     </div>
     <div class="menu-toggle">&#9776;</div>
-    <nav class="nav-links"></nav>
   </header>
 
+  <!-- 사이드 메뉴 -->
+  <nav class="side-menu" id="sideMenu">
+    <a href="#about">학원 소개</a>
+
+    <div class="menu-group">
+      <a href="#curriculum">수업 커리큘럼 및 시간표</a>
+      <div class="submenu">
+        <a href="#curriculum-detail">- 수업 커리큘럼</a>
+        <a href="#timetable">- 시간표</a>
+      </div>
+    </div>
+
+    <div class="menu-group">
+      <a href="#reviews">학생 및 학부모 후기</a>
+      <div class="submenu">
+        <a href="#student-review">- 학생 후기</a>
+        <a href="#parent-review">- 학부모 후기</a>
+      </div>
+    </div>
+
+    <a href="#location">오시는 길</a>
+
+    <div class="menu-group">
+      <a href="#contact">상담 신청 및 연락처</a>
+      <div class="submenu">
+        <a href="#consult">- 상담 신청</a>
+        <a href="#tel">- 연락처</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+
+  <!-- 학원 사진 슬라이더 -->
   <section class="slider-section">
     <div class="slider">
       <div class="slide active">학원 사진</div>
@@ -29,6 +62,7 @@
     </div>
   </section>
 
+  <!-- 푸터 -->
   <footer class="footer">
     <div class="footer-left">
       <small>
