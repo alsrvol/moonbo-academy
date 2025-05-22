@@ -162,3 +162,7 @@ header {
   opacity: 1;
   visibility: visible;
 }
+
+.side-menu.active {
+  right: 0;
+}
