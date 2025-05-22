@@ -109,6 +109,7 @@ header {
   text-decoration: underline;
 }
 
+/* 사이드 메뉴 */
 .side-menu {
   position: fixed;
   top: 0;
@@ -132,8 +133,9 @@ header {
 .side-menu a {
   color: white;
   text-decoration: none;
-  margin-bottom: 1rem;
+  margin: 0.4rem 0;
   font-weight: 500;
+  display: block;
 }
 
 .menu-group > a {
@@ -149,11 +151,14 @@ header {
 
 .menu-group.open .submenu {
   display: flex;
+  flex-direction: column;
 }
 
 .submenu a {
   font-size: 0.9rem;
   color: #c2c2c2;
+  margin: 0.3rem 0;
+  display: block;
 }
 
 .overlay {
