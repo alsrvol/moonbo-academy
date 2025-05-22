@@ -40,10 +40,6 @@ header {
   cursor: pointer;
 }
 
-.nav-links {
-  display: none;
-}
-
 .slider-section {
   text-align: center;
   padding: 2rem 1rem;
@@ -109,4 +105,60 @@ header {
 
 .footer-right a:hover {
   text-decoration: underline;
+}
+
+/* 사이드 메뉴 */
+.side-menu {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 240px;
+  height: 100%;
+  background-color: #171827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.side-menu a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.menu-group > a {
+  margin-bottom: 0.3rem;
+}
+
+.submenu {
+  padding-left: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.submenu a {
+  font-size: 0.9rem;
+  color: #c2c2c2;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 900;
+  transition: opacity 0.3s ease;
+}
+
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
