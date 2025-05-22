@@ -109,11 +109,10 @@ header {
   text-decoration: underline;
 }
 
-/* 사이드 메뉴 */
 .side-menu {
   position: fixed;
   top: 0;
-  right: -100vw;
+  right: -240px;
   width: 240px;
   height: 100%;
   background-color: #171827;
@@ -142,8 +141,14 @@ header {
 }
 
 .submenu {
+  display: none;
+  flex-direction: column;
   padding-left: 1rem;
   margin-bottom: 1.2rem;
+}
+
+.menu-group.open .submenu {
+  display: flex;
 }
 
 .submenu a {
