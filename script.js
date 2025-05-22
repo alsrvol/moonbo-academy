@@ -1,4 +1,3 @@
-// 햄버거 메뉴
 const menuToggle = document.querySelector('.menu-toggle')
 const sideMenu = document.getElementById('sideMenu')
 const overlay = document.getElementById('overlay')
@@ -13,7 +12,6 @@ overlay.addEventListener('click', () => {
   overlay.classList.remove('active')
 })
 
-// 슬라이드
 const slides = document.querySelectorAll('.slide')
 const dots = document.querySelectorAll('.dot')
 let currentIndex = 0
