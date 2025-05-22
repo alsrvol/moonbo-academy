@@ -107,7 +107,7 @@ header {
   text-decoration: underline;
 }
 
-/* 사이드 메뉴 */
+/* 햄버거 사이드 메뉴 */
 .side-menu {
   position: fixed;
   top: 0;
@@ -122,6 +122,10 @@ header {
   transition: right 0.3s ease;
   z-index: 1000;
   overflow-y: auto;
+}
+
+.side-menu.active {
+  right: 0;
 }
 
 .side-menu a {
@@ -161,8 +165,4 @@ header {
 .overlay.active {
   opacity: 1;
   visibility: visible;
-}
-
-.side-menu.active {
-  right: 0;
 }
