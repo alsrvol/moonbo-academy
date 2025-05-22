@@ -40,6 +40,7 @@ header {
   cursor: pointer;
 }
 
+/* 슬라이더 */
 .slider-section {
   text-align: center;
   padding: 2rem 1rem;
@@ -82,6 +83,7 @@ header {
   background-color: #171827;
 }
 
+/* 푸터 */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -107,11 +109,11 @@ header {
   text-decoration: underline;
 }
 
-/* 햄버거 사이드 메뉴 */
+/* 사이드 메뉴 */
 .side-menu {
   position: fixed;
   top: 0;
-  right: -250px;
+  right: -240px;     /* ← width와 정확히 맞춤 */
   width: 240px;
   height: 100%;
   background-color: #171827;
