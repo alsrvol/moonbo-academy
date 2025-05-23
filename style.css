@@ -113,7 +113,7 @@ header {
 .side-menu {
   position: fixed;
   top: 0;
-  right: -240px; /* 기본 상태: 화면 밖에 숨김 */
+  right: -100vw;  /* ← 화면 너비만큼 완전히 숨기기 */
   width: 240px;
   height: 100%;
   background-color: #171827;
